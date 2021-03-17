@@ -1,0 +1,43 @@
+﻿#CalendarBox { top:0; left:0; padding:5px; border:solid 2px #333; font-size:12px; background-color:#fff; z-index:99001; position:absolute; }
+#CalendarBox .pointer { cursor:pointer; }
+#CalendarBox .clear { display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important; }
+#CalendarBox div.Header { float:left; text-align:center; color:#000; }
+#CalendarBox div.Header form { float:left; width:230px; margin:0; padding:0; }
+#CalendarBox div.Header form select { width:auto; font-size:12px; vertical-align: middle; }
+#CalendarBox div.Header form img { cursor:pointer; vertical-align: middle; }
+#CalendarBox div.Header p { float: right; width:230px; margin:0; padding:5px 0 0 0; text-align:center; color:#000; }
+#CalendarBox div.Header p strong { font:12px 'Tahoma'; font-weight:bold; }
+#CalendarBox div.ListBox { float:left; margin:7px 0; padding-bottom:5px; border-top:dashed 1px #9c9c9c; border-bottom:dashed 1px #9c9c9c; }
+#CalendarBox div.ListBox table { float:left; width:230px; margin-right:10px; table-layout:fixed; }
+#CalendarBox div.ListBox table.Right { margin-right:0; }
+#CalendarBox div.ListBox table tr th { height:24px; font:10px 'Tahoma'; text-align:center; background-color:#F5F5F5; color:#555; }
+#CalendarBox div.ListBox table tr td { height:22px; font:12px 'Tahoma'; text-align:center; color:#000; }
+#CalendarBox div.ListBox .Disabled { color:#ccc; cursor:default; }
+#CalendarBox div.ListBox .Focus { background-color:#f0f0f0; cursor:pointer; }
+#CalendarBox div.ListBox .Sun { color:#ff3300; }
+#CalendarBox div.ListBox .Sat { color:#0066ff; }
+#CalendarBox div.ListBox .Today { background-color:#ff3333; font-size:100%; font-weight:bold; color:#fff; }
+#CalendarBox div.Btn { text-align: right; }
+
+
+#CalendarMonthBox { top:0; left:0; padding:5px; border:solid 2px #333; font-size:12px; background-color:#fff; z-index:20050; position:absolute; }
+#CalendarMonthBox .pointer { cursor:pointer; }
+#CalendarMonthBox .clear { display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important; }
+#CalendarMonthBox form.Setup {margin:0;padding:5px 0;background-color:#fefaca;border-bottom:solid 1px #faf5c2;;text-align:center;}
+#CalendarMonthBox form.Setup span {overflow:hidden;display:inline-block;width:60px;height:15px;padding:2px 4px;border:solid 1px #ccc;background-color:#fff;text-align:center;vertical-align:middle;cursor:pointer;}
+#CalendarMonthBox form.Setup span.focus {border-color:#000;color:#ef5929;}
+#CalendarMonthBox form.Setup img {vertical-align:middle;cursor:pointer;}
+#CalendarMonthBox div.Header { width:100%; margin-top:7px; text-align:center; color:#000; }
+#CalendarMonthBox div.Header select { padding:1px 0; background-color:#fff; font-size:12px; vertical-align: middle; }
+#CalendarMonthBox div.Header img { cursor:pointer; vertical-align: middle; }
+#CalendarMonthBox div.ListBox { margin:7px 0; padding-bottom:5px; border-top:dashed 1px #9c9c9c; border-bottom:dashed 1px #9c9c9c; }
+#CalendarMonthBox div.ListBox table { width:100%; margin-right:10px; table-layout:fixed; }
+#CalendarMonthBox div.ListBox table.Right { margin-right:0; }
+#CalendarMonthBox div.ListBox table tr th { height:24px; font:10px 'Tahoma'; text-align:center; background-color:#F5F5F5; color:#555; }
+#CalendarMonthBox div.ListBox table tr td { height:22px; font:12px 'Tahoma'; text-align:center; color:#000; }
+#CalendarMonthBox div.ListBox .Disabled { color:#ccc; cursor:default; }
+#CalendarMonthBox div.ListBox .Focus { background-color:#f0f0f0; cursor:pointer; }
+#CalendarMonthBox div.ListBox .Sun { color:#ff3300; }
+#CalendarMonthBox div.ListBox .Sat { color:#0066ff; }
+#CalendarMonthBox div.ListBox .Today { background-color:#ff3333; font-size:100%; font-weight:bold; color:#fff; }
+#CalendarMonthBox div.Btn { text-align: right; }

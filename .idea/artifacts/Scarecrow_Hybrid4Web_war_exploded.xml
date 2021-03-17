@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Scarecrow_Hybrid4Web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Scarecrow_Hybrid4Web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Scarecrow_Hybrid4Web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Scarecrow_Hybrid4Web" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

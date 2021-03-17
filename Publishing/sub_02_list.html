@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+	</style>
+</head>
+
+<body>
+
+<div class="sub sub_02">
+	<div class="title">
+		<p>리스트형</p>
+		<button class="btn_01" type="button">수정</button>
+		<button class="btn_02" type="button">삭제</button>
+		<button class="btn_03" type="button">저장</button>
+	</div>
+	<div class="content">
+		<div class="list">
+
+			<!-- input 기본형 -->
+			<dl>
+				<dt><div>기본형</div></dt>
+				<dd>
+					<input type="text">
+				</dd>
+			</dl>
+
+			<!-- select 선택 기본형 -->
+			<dl>
+				<dt><div>선택 기본형</div></dt>
+				<dd>
+					<select>
+						<option value="선택형">선택형</option>
+					</select>
+				</dd>
+			</dl>
+
+			<!-- select 선택 복수형 -->
+			<dl class="select_select">
+				<dt><div>선택 복수형</div></dt>
+				<dd>
+					<select>
+						<option value="선택형">선택형</option>
+					</select>
+					<span>-</span>
+					<select>
+						<option value="선택형">선택형</option>
+					</select>
+				</dd>
+			</dl>
+
+			<!-- textarea 박스 기본형 -->
+			<dl>
+				<dt><div>텍스트박스형</div></dt>
+				<dd>
+					<textarea></textarea>
+				</dd>
+			</dl>
+
+			<!-- img 이미지 기본형 -->
+			<dl class="dl_img">
+				<!-- dt라인 두줄일시 line_2 -->
+				<dt class="line_2"><div>이미지<br>기본형</div></dt>
+				<dd>
+					<label>
+						<input type="file">
+						<span style="background: url(images/icon/icon_file.png)no-repeat center; background-size: 104px; background-position-x: calc(50% + 7px);" >
+							<!-- <img src="images/bg/bg_map.png" alt="미리보기 이미지"> -->
+						</span>
+					</label>
+				</dd>
+			</dl>
+
+			<!-- add button -->
+			<dl class="add_button">
+				<dt></dt>
+				<dd>
+					<button type="button">부품 선택 추가</button>
+				</dd>
+			</dl>
+
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
